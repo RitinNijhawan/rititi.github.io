@@ -1,0 +1,317 @@
+:root {
+    --main-text-color: #00579A; 
+    color: Rgb(25,85,155)
+    
+  }
+  @font-face {
+    font-family: 'MyWebFont';
+    src: url('Avenir-Font/AvenirLTStd-Black.otf'); 
+    src: url('Avenir-Font/AvenirLTStd-Roman.otf') 
+         url('webfont.ttf')  
+        
+  }
+  @font-face{
+      font-family: 'freestyle';
+    src: url('/FREESCPT.TTF');
+  }
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+body
+{
+    overflow-x: hidden;
+    margin: 0%;
+    padding: 0%;
+}
+.back
+{
+    background-image: url('././Landing.png');
+    height: 480px;
+    width: 100%;
+    background-size: 100% 100% ;
+    
+}
+.homep1
+{
+ color: var( --main-text-color);
+ font-family: 'Raleway', sans-serif;
+ font-size: 56px;
+ margin-top: 9%;
+ margin-left: 5%;
+}
+@media screen and (max-width:320px){
+    .homep1
+{
+ 
+ font-size: 30px;
+ margin-top: 60%;
+ margin-left: 0%;
+}
+}
+@media screen and (min-width:360px)and (max-width:414px){
+    .homep1
+{
+ 
+ font-size: 40px;
+ margin-top: 40%;
+ margin-left: 0%;
+}
+}
+@media screen and (max-width:735px){
+    .homep1
+{
+ 
+ font-size: 40px;
+ margin-top: 29%;
+ margin-right: 3%;
+}
+}
+.homep2
+{
+ color: var( --main-text-color);
+ font-size: 56px;
+ margin-left: 27%;
+ font-family:  'Raleway', sans-serif;
+}
+@media screen and (max-width:320px){
+    .homep2
+{
+ font-size: 30px;
+ margin-left: 40%;
+}
+}
+@media screen and (min-width:360px)and (max-width:414px){
+    .homep2
+{
+ font-size: 40px;
+ margin-left: 30%;
+}
+}
+@media screen and (max-width:735px){
+    .homep2
+{
+ 
+ font-size: 40px;
+ margin-top: 0%;
+ margin-right: 10%;
+}
+}
+.homep3
+{
+ color: var( --main-text-color);
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-size: 19px;
+ text-align: end;
+ margin-top: 11%;
+ margin-right: 5%;
+}
+
+@media screen and  (max-width:320px){
+    .homep3
+{
+ 
+ font-size: 17px;
+ margin-top: 50%;
+ margin-left: 0%;
+}
+}
+@media screen and (min-width:360px)and (max-width:414px){
+    .homep3
+{
+ 
+ font-size: 19px;
+ margin-top: 39%;
+ margin-right: 3%;
+}
+}
+@media screen and (max-width:438px){
+    .homep3
+{
+ 
+ font-size: 19px;
+ margin-top: 30%;
+ margin-right: 3%;
+}
+}
+
+@media screen and (min-width:768px)and (max-width:1188px){
+    .homep3
+{
+ 
+ font-size: 19px;
+ margin-top: 15%;
+ margin-left: 0%;
+}
+}
+@media screen and (min-width:1189px) and (max-width:1204){
+    .homep3
+    {
+     
+     font-size: 19px;
+     margin-top: 5%;
+     margin-left: 0%;
+    }
+}
+.homep1.homep2.homep3
+{
+    color: rgb(25,85,155);
+}
+.nav
+{
+    background-color: #00579A;
+}
+.footerlogo
+{
+    margin-left: 3%; 
+    margin-top: 1%;   
+}
+
+.tagline
+{
+    margin-left: 4%;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ul li
+{
+    list-style-type: none;
+    display: inline-block;
+    padding: 6% 0% 4% 9%;;
+    color: Rgb(195,217,238) ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+ul li a
+
+{
+    text-decoration: none;
+    color: Rgb(195,217,238) ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+li a:hover
+{
+    color: Rgb(195,217,238) ;
+  text-decoration: none;
+}
+.copyright
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    
+
+}
+/*Donation*/
+.new {
+    background-image: url('./background.png');
+    background-size: 100% 100%;
+    padding: 180px 0 0 90px;
+    height: 480px;
+    width: 100%;
+
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+
+    -webkit-column-gap: 40px;
+    -moz-column-gap: 40px;
+    column-gap: 40px;
+
+    -webkit-column-rule: 3px solid var( --main-text-color);
+    -moz-column-rule: 3px solid var( --main-text-color);
+    column-rule: 3px solid var( --main-text-color);
+
+}
+
+.f1 {
+    width: 350px;
+
+    padding: 20px 50px 40px 30px;
+    color: var( --main-text-color);
+    line-height: auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: Avenir;
+    text-transform: uppercase;
+}
+
+h h1 {
+    padding-left: 30px;
+    font-family: Georgia;
+}
+
+h4 {
+    padding-left: 33px;
+    font-family: Georgia;
+}
+
+#container2 {
+    width: 350px;
+    position: relative;
+
+    line-height: 1.4em;
+
+}
+
+/* If in mobile screen with maximum width 479px. The iPhone screen resolution is 320x480 px (except iPhone4, 640x960) */
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .new {
+        height: 600px;
+        width: auto;
+        margin: 0px;
+        padding: 200px 0 0 0px;
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+
+        -webkit-column-gap: 20px;
+        -moz-column-gap: 20px;
+        column-gap: 20px;
+
+        -webkit-column-rule: 3px solid var( --main-text-color);
+        -moz-column-rule: 3px solid var( --main-text-color);
+        column-rule: 3px solid var( --main-text-color);
+    }
+
+    .f1 {
+        margin: 0px;
+        padding: 5px;
+
+    }
+
+    h1 {
+        font-size: 25px;
+
+        text-align: center;
+        font-weight: 50px;
+        text-align: center;
+    }
+
+    h4 {
+        font-size: 8px;
+        text-align: center;
+        padding-left: 8px;
+    }
+}
+/*vision*/
+.backvision
+{
+    background-image: url('././vision.png');
+    height: 480px;
+    width: 100%;
+    background-size: 100% 100% ;
+    
+}
+.visionlogo
+{
+    margin-left: 4%;
+    border-right: 1px solid grey;
+  
+}
